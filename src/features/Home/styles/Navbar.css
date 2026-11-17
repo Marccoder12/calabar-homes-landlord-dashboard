@@ -1,0 +1,49 @@
+.navbar{
+    background-color: #ffffff;
+}
+
+.navbar-topcard{
+    width: 100%;
+    padding: 0.5em;
+    padding-left: 1em;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar-title{
+    color: purple;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: clamp(0.5em, 2vw, 1em);
+}
+.navbar-subtitle{
+    color: #666;
+    font-family: Poppins, sans-serif;
+    font-size: clamp(0.5em, 2vw, 0.8em);
+}
+
+
+/* Navbar links */
+.navbar-link{
+    display: flex;
+    align-items: center;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    color: #3a3a3a;
+}
+.navbar-link span{
+    align-items: center;
+}
+
+.navbar-link-icon{
+    margin-right: 0.5em;
+    color:#666;
+}
+.navbar-link-icon svg {
+    width: 20px;
+    height: 20px;
+    stroke-width: 1.8;
+}
