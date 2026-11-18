@@ -31,8 +31,14 @@
     align-items: center;
     padding: 0.5em 1em;
     cursor: pointer;
+    font-size: clamp(0.5em, 2vw, 0.9em);
     font-family: Poppins, sans-serif;
-    color: #3a3a3a;
+    color: #b0b0b0;
+}
+.navbar-link:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: #f1e7f9e2;
+    color: #6e3d93;
 }
 .navbar-link span{
     align-items: center;
@@ -40,10 +46,10 @@
 
 .navbar-link-icon{
     margin-right: 0.5em;
-    color:#666;
+    color:#7d7d7d;
 }
 .navbar-link-icon svg {
     width: 20px;
     height: 20px;
-    stroke-width: 1.8;
+    stroke-width: 1.6;
 }

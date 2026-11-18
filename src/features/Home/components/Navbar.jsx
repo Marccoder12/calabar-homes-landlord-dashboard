@@ -15,7 +15,6 @@ export const Navbar = () => {
             <NavbarLink text="My Properties" icon={ <Building2/> } />
             <NavbarLink text="Add Property" icon={ <HousePlus/> } />
             <NavbarLink text="Enquiries" icon={ <Calendar/> } />
-            <NavbarLink text="Profile" icon={ <User/> }/>
             <NavbarLink text="Settings" icon={ <Settings/> }/>
             <NavbarLink text="Profile" icon={ <User/> } />
         </div>
